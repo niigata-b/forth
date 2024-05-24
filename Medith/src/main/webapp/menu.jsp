@@ -4,9 +4,34 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>メニュー+掲示板画面</title>
+<title>メニュー+掲示板</title>
 </head>
 <body>
-hello 
+
+<form action="EmployeeListServlet" method="post">
+
+<input type="submit" value="従業員一覧">
+
+</form>
+
+<form action="logout.jsp" method="post">
+
+<input type="submit" value="ログアウト">
+
+</form><br>
+
+<h2>掲示板</h2>
+
+<form action="BoardDetailServlet" method="post">
+
+<input type="link" name="title">
+
+</form>
+
+<form action="board-write.jsp" method="post">
+
+<input type="submit" value="新規書き込み">
+
+</form>
 </body>
 </html>

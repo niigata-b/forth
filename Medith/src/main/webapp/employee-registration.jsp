@@ -9,15 +9,15 @@
 <body>
 <h2>従業員登録画面</h2>
 <form action="employee-registration-confirm.jsp" method="post">
-<input type="text" name="employee_id">
+<input type="text" name="employee_id"><br>
 
-<input type="text" name="name">
+<input type="text" name="name"><br>
 
 <select name="gender">
 <option value="男">男</option>
 <option value="女">女</option>
 <option value="その他">その他</option>
-</select>
+</select><br>
 
 <select name="name">
 			<%
@@ -29,12 +29,12 @@
 			<%
 				}
 			%>
-		</select>
+		</select><br>
  <select name="time">
 <option value="朝">朝</option>
 <option value="夜">夜</option>
 <option value="不在">不在</option>
-</select>
+</select><br>
 
 <select name="example">
 <option value="外科">外科</option>
@@ -48,7 +48,7 @@
 <option value="予防医療センター">予防医療センター</option>
 <option value="薬剤部">薬剤部</option>
 <option value="臨床検査科">臨床検査科</option>
-</select>
+</select><br>
 
 <select name="position">
 <option value="院長">院長</option>
@@ -65,12 +65,11 @@
 <option value="看護師">看護師</option>
 <option value="医師">医師</option>
 <option value="臨床検査技師">臨床検査技師</option>
-</select>
+</select><br>
 
-<input type="password" name="password">
+<input type="password" name="password"><br>
 
 <input type="submit" value="登録">
-
 </form>
 
 <form action="EmployeeListServlet" method="post">
