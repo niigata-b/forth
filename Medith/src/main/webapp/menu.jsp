@@ -4,9 +4,9 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>メニュー+掲示板画面</title>
 </head>
 <body>
-
+hello 
 </body>
 </html>
